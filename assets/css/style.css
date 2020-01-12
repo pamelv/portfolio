@@ -31,14 +31,23 @@ body {
   background-color: #e86e46;
   color: white;
 }
+.footer {
+  background-color: #152369;
+  width: 100%;
+  bottom: 0;
+  padding: 100px 0;
+  align-items: center;
+  display: none;
+  margin: auto;
+}
 h2 {
-  font-size: 8.5rem;
+  font-size: 9rem;
   font-family: Montserrat Alternates;
   padding-top: 55px;
   font-weight: bold;
 }
 h3 {
-  font-size: 3.5rem;
+  font-size: 4.7rem;
   font-family: Montserrat Alternates;
   padding-bottom: 55px;
 }
@@ -52,9 +61,6 @@ h3 {
   position: relative;
   border-top: 30px solid #9c4a2f;
 }
-.row {
-  justify-content: center;
-}
 .intro {
   text-align: center;
   background-color: #9c4a2f;
@@ -66,6 +72,10 @@ h3 {
 .col-md-10,
 .col-md-12 {
   padding: 0;
+}
+.col-md-3 {
+  display: grid;
+  align-items: center;
 }
 .animojiright,
 .animojileft {
@@ -125,17 +135,31 @@ h3 {
   background-color: #fff;
   border-radius: 15px;
 }
-.languages {
-  padding: 0 30px;
+.skills {
+  padding: 10px 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   line-height: inherit;
   background-color: #fff;
   border-radius: 15px 0 0 15px;
+  margin-bottom: 50px;
 }
-.languages h3 {
+.skills h3 {
   color: #69321f;
   font-weight: bold;
-  border-left: solid 10px #e86e46;
+  border-left: solid 10px #152369;
   padding: 0 0 0 5px;
   line-height: 1;
+}
+.skillsicons {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+.skillname {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: #e86e46;
+  padding: 5px 0;
 }

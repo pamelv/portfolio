@@ -44,6 +44,7 @@ body {
   align-items: center;
   display: none;
   margin: auto;
+  justify-content: center;
 }
 h2 {
   font-size: 9rem;
@@ -69,7 +70,6 @@ h3 {
   text-align: center;
   background-color: #9c4a2f;
   width: -webkit-fill-available;
-  border-top: 10px solid #eee;
 }
 .col-md-2,
 .col-md-10,
@@ -94,17 +94,11 @@ h3 {
   left: 0;
   display: none;
 }
-.downarrow,
-.uparrow {
+.downarrow {
   text-align: center;
   position: fixed;
-}
-.uparrow {
-  top: 0;
-  z-index: 100;
-}
-.downarrow {
   bottom: 0;
+  z-index: 100;
 }
 .glyphicon {
   font-size: 5.5rem;
@@ -165,4 +159,14 @@ h3 {
   font-weight: bold;
   background-color: #e86e46;
   padding: 5px 0;
+}
+.col-4 {
+  display: flex;
+  justify-content: center;
+}
+.socialicons a {
+  margin: auto;
+}
+.socialicons a {
+  text-align: center;
 }

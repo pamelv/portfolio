@@ -4,7 +4,7 @@ $(".pg2").click(function() {
   $(".page2").css("display", "block");
   $(".pg2").toggleClass("active");
   $(".pg1").toggleClass("active");
-  $(".footer").css("display", "block");
+  $(".footer").css("display", "flex");
 });
 $(".pg1").click(function() {
   $(".hero-image").css("display", "block");
